@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 'Open Sans', 'Sans-serif';
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+   text-decoration: none;
+}
+.flex-container menu{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}  
+header{
+    background-color: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+}
+header.list-itens{
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+}
+header .list-itens li a{
+    color: #ffff;
+    font-size: medium;
+    font-family: 'Fira Sans', sans-serif;
+}
+header .menu{
+    justify-content: space-between;
+}
